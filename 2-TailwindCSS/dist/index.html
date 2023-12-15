@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insight Card Project</title>
+  <link rel="icon" type="image/x-icon" href="favicon-32x32.png" />
+  <link rel="stylesheet" href="style.css">
+  <!--Font Awesome-->
+  <script src="https://kit.fontawesome.com/54b8bf2d08.js" crossorigin="anonymous"></script>
+  <!--Font Google-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <style>
+    img{
+      width: 500px;
+      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-135deg) saturate(600%) contrast(0.8);
+      border-radius: 0 5px 5px 0;
+      max-width: 100%;
+      height: auto;
+
+    }
+  </style>
+</head>
+<body class="place-content-center flex flex-wrap h-screen bg-kcolor-500">
+  <div id="myid" class="w-full ml-auto mr-auto flex md:flex-row flex-col-reverse md:max-w-4xl max-w-xs rounded overflow-hidden bg-kcolor-200">
+    
+    <div class="grid place-content-center px-6 py-4">
+      <div class="font-bold text-center md:text-start flex-wrap text-3xl mb-2 text-white font-sans">Get <span class="text-kcolor-300">insights</span> that help <br> your business grow</div>
+      <p class="text-white text-base text-center md:text-start mt-4">
+        Get the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+      </p>
+
+      <div class=" flex flex-wrap md:flex-row flex-col md:justify-start items-center mt-12">
+        <!--1st Card - Books -->
+        <div class="flex flex-col mb-12 mr-14">
+          <p class="text-xl font-bold text-white md:text-start text-center">10k+</p>
+          <p class="text-sm font-bold text-gray-500">COMPANIES</p>
+        </div>
+        <div class="flex flex-col mb-12 mr-14">
+          <p class="text-xl font-bold text-white md:text-start text-center">314</p>
+          <p class="text-sm font-bold text-gray-500">TEMPLATES</p>
+        </div>
+        <div class="flex flex-col mb-12 mr-14">
+          <p class="text-xl font-bold text-white md:text-start text-center">12M+</p>
+          <p class="text-sm font-bold text-gray-500">QUERIES</p>
+        </div>
+      </div>  
+
+    </div>
+    
+    <img class="md:hidden" src="image-header-mobile.jpg" alt="Sunset in the mountains">
+    
+    <img class="w-6/12 md:visible invisible" src="image-header-desktop.jpg" alt="Sunset in the mountains">
+ 
+    
+  </div>
+  
+</body>
+</html> 
